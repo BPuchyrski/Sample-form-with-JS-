@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form-trening</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <h1>Form with the use of JS, HTML, and CSS</h1>
+      <form>
+        <div class="form__item">
+          <label class="form__label" for="username">Username</label>
+          <input
+            class="form__input"
+            type="text"
+            id="username"
+            name="username"
+            required
+          />
+          <p class="form__err">Username should be more than 5 characters</p>
+        </div>
+        <div class="form__item">
+          <label class="form__label" for="password">Password</label>
+          <input
+            class="form__input"
+            type="password"
+            id="password"
+            name="password"
+            required
+          />
+          <p class="form__err">Passwords should be more than 8 characters</p>
+        </div>
+        <div class="form__item">
+          <label class="form__label" for="password2">Confirm password</label>
+          <input
+            class="form__input"
+            type="password"
+            id="password2"
+            name="password2"
+            required
+          />
+          <p class="form__err">Passwords must match</p>
+        </div>
+        <div class="form__item">
+          <label class="form__label" for="email">Email</label>
+          <input
+            class="form__input"
+            type="email"
+            id="email"
+            name="email"
+            required
+          />
+          <p class="form__err">Enter the correct email address</p>
+        </div>
+        <div class="form__buttons">
+          <button class="btn submit" type="submit">Submit</button>
+          <button class="btn reset" type="reset">Reset</button>
+        </div>
+      </form>
+      <div class="popup">
+        <div class="popup-content">
+          <p>Wysłano formularz</p>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
