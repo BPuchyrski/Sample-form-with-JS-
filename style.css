@@ -9,7 +9,7 @@ body {
   min-height: 100vh;
 }
 .wrapper {
-  width: 40%;
+  max-width: 480px;
   display: flex;
   flex-direction: column;
   background-color: white;
